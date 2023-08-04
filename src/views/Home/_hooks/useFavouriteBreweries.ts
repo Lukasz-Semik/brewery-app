@@ -7,6 +7,11 @@ import {
   storeDataInIndexedDB,
 } from "../../../indexedDB/indexedDB";
 
+/*
+  I like to work on Sets/Maps when lists could be huge. Ofc, we could 
+  OFC, we could use just state, but then we would have a lot of `filters`, `includes`. 
+  Besides that... Just for fun :D 
+*/
 const selectedBreweriesToAdd = new Set<Beer>();
 const selectedBreweriesToRemove = new Set<Beer>();
 
