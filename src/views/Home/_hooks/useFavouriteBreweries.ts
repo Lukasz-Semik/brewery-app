@@ -8,7 +8,7 @@ import {
 } from "../../../indexedDB/indexedDB";
 
 /*
-  I like to work on Sets/Maps when lists could be huge. Ofc, we could 
+  I like to work on Sets/Maps when lists could be huge.
   OFC, we could use just state, but then we would have a lot of `filters`, `includes`. 
   Besides that... Just for fun :D 
 */
