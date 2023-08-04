@@ -1,16 +1,14 @@
-import { getRandomBeerList } from '../../api';
-import { Beer } from '../../types';
-import handle from '../../utils/error';
+import { getRandomBeerList } from "../../api";
 
-const fetchData = (setData: (data: Array<Beer>) => void) => {
-  (async () => {
-    try {
-      const { data } = await getRandomBeerList(10);
-      setData(data);
-    } catch (error) {
-      handle(error);
-    }
-  })();
+import handle from "../../utils/error";
+
+const fetchData = async () => {
+  try {
+    const { data } = await getRandomBeerList(10);
+    return data;
+  } catch (error) {
+    handle(error);
+  }
 };
 
 export { fetchData };
