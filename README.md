@@ -3,7 +3,7 @@
 During first call with recruitment, I was instructed to choose one from below tasks.
 I think PWA and offline approach is the most interesting...
 
-**SEE THIS PR IN ORDER TO VIEW MY CHANGES TO EXISTING CODE OR JUST SWITCH TO BRACNH `lukasz`**
+**SEE [THIS PR](https://github.com/Lukasz-Semik/brewery-app/pull/1) IN ORDER TO VIEW MY CHANGES WITH DIFF**
 
 Due to time constraints, I did just a short "example" for non production or finished product code.
 
